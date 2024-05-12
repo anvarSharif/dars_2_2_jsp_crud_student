@@ -43,8 +43,8 @@
     <td><%=student.getLastName()%></td>
     <td><%=student.getAge()%></td>
     <td>
-        <a href="updateStudent.jsp?id=<%=student.getId()%>" class="btn btn-info">edit</a>
-        <a href="/student/delete?id=<%=student.getId()%>" class="btn btn-danger ">delete</a>
+<%--        <a href="updateStudent.jsp?id=<%=student.getId()%>" class="btn btn-info">edit</a>--%>
+<%--        <a href="/student/delete?id=<%=student.getId()%>" class="btn btn-danger ">delete</a>--%>
     </td>
 </tr>
 <%  }  %>
