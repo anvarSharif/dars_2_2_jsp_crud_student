@@ -19,11 +19,11 @@
     List<Student> students= StudentRepo.findAll();
 %>
 
-<div class="row">
+<%--<div class="row">
     <div class="col-2 offset-10">
         <a href="addstudent.jsp" class="btn btn-dark text-white">add student</a>
     </div>
-</div>
+</div>--%>
 <hr>
 
 <table class="table table-stripped">
